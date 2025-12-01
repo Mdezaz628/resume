@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Md Ezaz Ansari — Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header class="site-header">
+    <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">🌙</button>
+    <div class="header-content">
+      <div class="header-left">
+        <h1 class="logo">Md Ezaz Ansari</h1>
+      </div>
+      <div class="header-right">
+        <button id="navToggle" class="nav-toggle" aria-label="Toggle navigation">☰</button>
+        <nav id="siteNav" class="site-nav">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-bg" aria-hidden="true">
+        <span class="blob blob-1"></span>
+        <span class="blob blob-2"></span>
+        <span class="blob blob-3"></span>
+        <span class="shape cube"></span>
+        <span class="shape panel"></span>
+      </div>
+      <div class="container">
+        <div class="hero-grid">
+          <div>
+            <h2>Hi — I'm <span class="accent">Md Ezaz Ansari</span></h2>
+            <p class="lead">I build web apps and delightful user experiences. I work with JavaScript, HTML, CSS and sometimes backend APIs.</p>
+            <p>
+              <a class="btn" href="#projects">See my work</a>
+              <a class="btn secondary" href="#contact">Contact me</a>
+            </p>
+          </div>
+          <div class="hero-photo">
+            <!-- Add your photo at assets/profile.jpg or replace the URL -->
+            <img src="img3.jpg" alt="Your photo" class="circular">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="section-bg" aria-hidden="true">
+        <span class="blob blob-1"></span>
+        <span class="blob blob-2"></span>
+        <span class="shape panel small"></span>
+      </div>
+      <div class="container">
+        <h3>About me</h3>
+        <p>I'm Md Ezaz, a CSE student and aspiring full-stack + ML developer.
+Along with web development, I'm actively learning Machine Learning, exploring everything from data preprocessing to model building, training, and evaluation. I love working on projects where I can combine software engineering with ML to create intelligent, real-world applications.</p>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="section-bg" aria-hidden="true">
+        <span class="blob blob-2"></span>
+        <span class="blob blob-3"></span>
+        <span class="shape cube small"></span>
+      </div>
+      <div class="container">
+        <h3>Projects</h3>
+        <div class="projects-grid" id="projectsGrid">
+          <!-- My Projects -->
+          <article class="card">
+            <h4>Weather Forecasting Website</h4>
+            <p>A real-time weather app that fetches data from OpenWeatherMap API. Display current conditions, 5-day forecast, and location-based weather alerts.</p>
+            <p class="card-links"><a href="#">Demo</a> · <a href="#">Source</a></p>
+          </article>
+
+          <article class="card">
+            <h4>Todo List App</h4>
+            <p>A task management app with add, edit, delete, and mark-complete functionality. Data persists using localStorage. Built with vanilla JavaScript.</p>
+            <p class="card-links"><a href="#">Demo</a> · <a href="#">Source</a></p>
+          </article>
+
+          <article class="card">
+            <h4>Clothing E-commerce Website</h4>
+            <p>Full-featured online store with product catalog, shopping cart, filters, and checkout. Built with React and Node.js backend with Stripe payment integration.</p>
+            <p class="card-links"><a href="#">Demo</a> · <a href="#">Source</a></p>
+          </article>
+
+          <article class="card">
+            <h4>Tourism in Jharkhand</h4>
+            <p>A tourism guide showcasing Jharkhand's attractions, hotels, and travel guides. Features interactive maps, booking integration, and local culture highlights.</p>
+            <p class="card-links"><a href="#">Demo</a> · <a href="#">Source</a></p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills tech-skills-section">
+      <div class="section-bg" aria-hidden="true">
+        <span class="blob blob-1"></span>
+        <span class="blob blob-3"></span>
+        <span class="shape panel small"></span>
+      </div>
+      <div class="container">
+        <h3>Programming Languages</h3>
+        
+        <div class="skills-bars">
+          <div class="skill-bar">
+            <div class="skill-icon-box"></div>
+            <div class="skill-name">Python</div>
+            <div class="skill-bar-container">
+              <div class="skill-bar-fill" style="width: 95%"></div>
+            </div>
+            <div class="skill-percent">95%</div>
+          </div>
+
+          <div class="skill-bar">
+            <div class="skill-icon-box"></div>
+            <div class="skill-name">Java</div>
+            <div class="skill-bar-container">
+              <div class="skill-bar-fill" style="width: 85%"></div>
+            </div>
+            <div class="skill-percent">85%</div>
+          </div>
+
+          <div class="skill-bar">
+            <div class="skill-icon-box"></div>
+            <div class="skill-name">C++</div>
+            <div class="skill-bar-container">
+              <div class="skill-bar-fill" style="width: 80%"></div>
+            </div>
+            <div class="skill-percent">80%</div>
+          </div>
+
+          <div class="skill-bar">
+            <div class="skill-icon-box"></div>
+            <div class="skill-name">JavaScript</div>
+            <div class="skill-bar-container">
+              <div class="skill-bar-fill" style="width: 75%"></div>
+            </div>
+            <div class="skill-percent">75%</div>
+          </div>
+
+          <div class="skill-bar">
+            <div class="skill-icon-box"></div>
+            <div class="skill-name">React</div>
+            <div class="skill-bar-container">
+              <div class="skill-bar-fill" style="width: 80%"></div>
+            </div>
+            <div class="skill-percent">80%</div>
+          </div>
+
+          <div class="skill-bar">
+            <div class="skill-icon-box"></div>
+            <div class="skill-name">Node.js</div>
+            <div class="skill-bar-container">
+              <div class="skill-bar-fill" style="width: 75%"></div>
+            </div>
+            <div class="skill-percent">75%</div>
+          </div>
+
+          <div class="skill-bar">
+            <div class="skill-icon-box"></div>
+            <div class="skill-name">NumPy</div>
+            <div class="skill-bar-container">
+              <div class="skill-bar-fill" style="width: 85%"></div>
+            </div>
+            <div class="skill-percent">85%</div>
+          </div>
+
+          <div class="skill-bar">
+            <div class="skill-icon-box"></div>
+            <div class="skill-name">Pandas</div>
+            <div class="skill-bar-container">
+              <div class="skill-bar-fill" style="width: 85%"></div>
+            </div>
+            <div class="skill-percent">85%</div>
+          </div>
+
+          <div class="skill-bar">
+            <div class="skill-icon-box"></div>
+            <div class="skill-name">TensorFlow</div>
+            <div class="skill-bar-container">
+              <div class="skill-bar-fill" style="width: 70%"></div>
+            </div>
+            <div class="skill-percent">70%</div>
+          </div>
+
+          <div class="skill-bar">
+            <div class="skill-icon-box"></div>
+            <div class="skill-name">Git</div>
+            <div class="skill-bar-container">
+              <div class="skill-bar-fill" style="width: 90%"></div>
+            </div>
+            <div class="skill-percent">90%</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="soft-skills" class="soft-skills">
+      <div class="section-bg" aria-hidden="true">
+        <span class="blob blob-3"></span>
+        <span class="shape cube small"></span>
+      </div>
+      <div class="container">
+        <h3>Soft Skills</h3>
+        
+        <div class="soft-skills-grid">
+          <div class="soft-skill-item">
+            <h4>Problem-solving</h4>
+            <p>Analytical thinking and creative problem-solving approach</p>
+          </div>
+
+          <div class="soft-skill-item">
+            <h4>Communication</h4>
+            <p>Clear and effective communication with teams and stakeholders</p>
+          </div>
+
+          <div class="soft-skill-item">
+            <h4>Teamwork</h4>
+            <p>Collaborative mindset and ability to work in diverse teams</p>
+          </div>
+
+          <div class="soft-skill-item">
+            <h4>Time management</h4>
+            <p>Efficient task prioritization and deadline management</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="achievements" class="achievements">
+      <div class="section-bg" aria-hidden="true">
+        <span class="blob blob-1"></span>
+        <span class="shape panel small"></span>
+      </div>
+      <div class="container">
+        <h3>Achievements & Competitions</h3>
+        <ul class="achievement-list">
+          <li><strong>SIH (Smart India Hackathon)</strong> — Participant in national-level hackathon, showcasing innovative solutions to real-world problems</li>
+          <li><strong>Inter-Level Hackathon</strong> — Selected at inter-level competition, demonstrating strong problem-solving and coding skills</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="section-bg" aria-hidden="true">
+        <span class="blob blob-2"></span>
+        <span class="shape cube small"></span>
+      </div>
+      <div class="container">
+        <h3>Let's Build the Future Together</h3>
+        <p class="contact-lead">Ready to collaborate on innovative AI/ML projects? I'm always excited to discuss new opportunities, research collaborations, or technical challenges.</p>
+        
+        <div class="contact-cards">
+          <div class="contact-card">
+            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+            <h4>Email</h4>
+            <p class="contact-info"><a href="mailto:ansarimdezaz01@gmail.com?subject=Let's%20work%20together">Send me an email</a></p>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-icon"><i class="fab fa-whatsapp"></i></div>
+            <h4>WhatsApp</h4>
+            <p class="contact-info"><a href="https://wa.me/919162723030?text=Hi%20Ezaz" target="_blank">Message on WhatsApp</a></p>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-icon"><i class="fab fa-linkedin"></i></div>
+            <h4>LinkedIn</h4>
+            <p class="contact-info"><a href="https://www.linkedin.com/in/md-ezaz-ansari-1a491a346" target="_blank">Connect professionally</a></p>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-icon"><i class="fab fa-github"></i></div>
+            <h4>GitHub</h4>
+            <p class="contact-info"><a href="#" target="_blank">View my projects</a></p>
+          </div>
+        </div>
+
+        <a class="btn btn-large" href="mailto:ansarimdezaz01@gmail.com?subject=Let's%20work%20together">📧 Get In Touch</a>
+        <p class="contact-note">Typically responds within 24 hours</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-section footer-brand">
+        <h3>AI Portfolio</h3>
+        <p>Computer Science Engineer specializing in Artificial Intelligence and Machine Learning solutions.</p>
+      </div>
+      
+      <div class="footer-section">
+        <h4>Portfolio</h4>
+        <ul class="footer-links">
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#achievements">Experience</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-section">
+        <h4>Connect</h4>
+        <ul class="footer-links">
+          <li><a href="mailto:ansarimdezaz01@gmail.com?subject=Let's%20work%20together">Contact</a></li>
+          <li><a href="assets/resume.txt" download="Md_Ezaz_Ansari_Resume.txt">Resume</a></li>
+          <li><a href="#" target="_blank">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/md-ezaz-ansari-1a491a346" target="_blank">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>© 2025 Md_Ezaz_Ansari_Resume. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
